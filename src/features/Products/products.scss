@@ -1,0 +1,15 @@
+@use "sass" as *;
+
+.product {
+    @include flex(center, space-between);
+    gap: 1.4rem;
+
+    &__filter {
+        width: 28rem;
+        background-color: $white;
+    }
+
+    &__content {
+        flex: 1;
+    }
+}

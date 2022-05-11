@@ -1,0 +1,5 @@
+@use "sass" as *;
+
+.home {
+    margin-top: calc($header-height + 3.4rem);
+}

@@ -13,11 +13,11 @@ html {
     font-size: 62.5%;
 
     @include tablet {
-        font-size: 80%;
+        font-size: 60%;
     }
 
     @include mobile {
-        font-size: 60%;
+        font-size: 37.5%;
     }
 }
 
@@ -40,8 +40,7 @@ a {
 
 @media (hover: hover) {
     a:hover {
-        transition: color 0.3s linear;
-        color: $main-color;
+        cursor: pointer;
     }
 }
 
@@ -63,7 +62,7 @@ iframe {
 }
 
 .container {
-    max-width: 1660px;
+    max-width: 1280px;
     margin: auto;
 }
 

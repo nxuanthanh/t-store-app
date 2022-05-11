@@ -1,14 +1,22 @@
-$body-bg: #f8f8f8;
-$main-color: #2457ca;
+$body-bg: rgb(245, 245, 245);
+$main-color: #ee4d2d;
 $txt-color: #222;
 
 $white: #fff;
 $black: #000;
 
-$box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+$box-shadow: rgba(100, 100, 111, 02) 0px 7px 29px 0px;
 
 $border-radius: 16px;
-$mobile-width: 740px;
-$tablet-width: 1024px;
+$mobile-width: 739px;
+$tablet-width: 1023px;
+$header-height: 120px;
+$navbar-height: 34px;
 
-$font-family: "Montserrat", "sans-serif";
+$font-family: "Roboto", "sans-serif";
+
+$color: (
+    "blue": #4267b2,
+    "white": #fff,
+    "black": #000,
+);
